@@ -36,7 +36,7 @@ Or
 Since it's a learning project i don't plan to merge pull requests or ask for contribution on this project, however feel free to fork it.
 
 Also for developpement purposes, i suggest to use the watch script instead of the build one.
-> yarn run build
+> yarn run watch
 
 It will update the bouledogue.css file as you work on any .scss file in the scss folder.
 # Demo 
