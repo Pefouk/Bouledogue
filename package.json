@@ -1,0 +1,30 @@
+{
+  "name": "bouledogue",
+  "version": "0.0.1",
+  "description": "CSS Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "null",
+    "build": "node-sass scss/bouledogue.scss -o css --output-style compressed",
+    "watch": "node-sass scss/bouledogue.scss -o css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pefouk/Bouledogue.git"
+  },
+  "keywords": [
+    "CSS",
+    "Front-end",
+    "web",
+    "scss"
+  ],
+  "author": "Jérémy Appriou",
+  "license": "GPL-2.0-only",
+  "bugs": {
+    "url": "https://github.com/Pefouk/Bouledogue/issues"
+  },
+  "homepage": "https://github.com/Pefouk/Bouledogue#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
