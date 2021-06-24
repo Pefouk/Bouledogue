@@ -11,11 +11,11 @@ Select from what source you want to install Bouledogue
 3. Done 🐶
 ## From npm
 1. Download it from your favourite package manager (yarn, npm...) like
-> npm add BouledogueCSS
+> npm add bouledogue
 
 Or
 
-> yarn BouledogueCSS
+> yarn bouledogue
 
 2. Include it to your index file
 3. Done 🐶
