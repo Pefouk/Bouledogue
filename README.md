@@ -9,7 +9,7 @@ Bouledogue is a CSS framework made in SCSS on top of [Skeleton](http://getskelet
 1. Download the latest version of bouledogue.css from the release tab or build from source files
 2. Include it to your index.html, index.php or whatever
 3. Done 🐶
-# Developpement
+# Development
 Since it's a learning project I don't plan to merge pull requests or ask for contribution on this project, however feel free to fork it.
 
 Also for developpement purposes, I suggest to use the watch script instead of the build one.
