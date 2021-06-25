@@ -34,31 +34,30 @@
   }
 }
 
-
 @mixin button-size($value) {
-    padding-left: map-get($value, "padding");
-    padding-right: map-get($value, "padding");
-    height: map-get($value, "height");
-    font-size: map-get($value, "font-size");
-    border-radius: map-get($value, "border-radius")
+  padding-left: map-get($value, "padding");
+  padding-right: map-get($value, "padding");
+  height: map-get($value, "height");
+  font-size: map-get($value, "font-size");
+  border-radius: map-get($value, "border-radius");
 }
 
 @each $size, $value in $btn {
-    .btn-#{$size} {
-        @include button-size($value);
-    }
+  .btn-#{$size} {
+    @include button-size($value);
+  }
 }
 
 @each $color, $value in $colors {
-    .btn-#{$color} {
-        @include button-variant($value);
-    }
+  .btn-#{$color} {
+    @include button-variant($value);
+  }
 }
 
 .btn-dark {
-    color: $light;
+  color: $light;
 }
 
 .btn-light {
-    color: $dark;
+  color: $dark;
 }
