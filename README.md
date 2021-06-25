@@ -17,7 +17,7 @@ Also for developpement purposes, I suggest to use the watch script instead of th
 
 It will update the bouledogue.css file as you work on any .scss file in the scss folder.
 # Demo 
-Bouledogue is used on [my own portfolio website](https://www.playerfrais.online).
+Bouledogue is used on [its presentation page](https://bouledogue.pefouk.tech) and on [my own portfolio website](https://www.playerfrais.online).
 
 # Why a Bouledogue
 My parents own a French Bouledogue (named Jaya) so i quite like this breed, as simple as that.
