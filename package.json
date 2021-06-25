@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/Pefouk/Bouledogue#readme",
   "dependencies": {
-    "node-sass": "^6.0.1"
+    "node-sass": "^6.0.1",
+    "systematize": "^3.3.1"
   }
 }
