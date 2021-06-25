@@ -30,7 +30,8 @@ body {
 .borderFooter {
   justify-content: center;
   width: 70vw;
-  border-top: solid 2px wheat;
+  border-top: solid 2px rgb(235, 245, 223);
+  border-radius: 5%;
 }
 @media (min-width: 550px) {
   .borderFooter {
