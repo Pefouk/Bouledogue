@@ -1,0 +1,10 @@
+/*
+* This file has nothing to do with Bouledogue itself.
+* It adds a few rules to the presentation page.
+*/
+
+@media (min-width: 550px) {
+  #app {
+    margin-top: 20vh;
+  }
+}
