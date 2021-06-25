@@ -1,32 +1,44 @@
+// Colors scheme
+
 $colors: (
   "primary": rgb(137, 187, 254),
   "secondary": rgb(245, 138, 7),
   "text": rgb(235, 245, 223),
   "danger": rgb(223, 41, 53),
   "background": rgb(13, 24, 33),
-  "light" : rgb(230, 230, 230),
-  "dark" : rgb(5,5,5)
+  "light": rgb(230, 230, 230),
+  "dark": rgb(5, 5, 5),
 );
 
+// Buttons variables such as size
 $btn: (
-    "s": (
-        "padding" : 2px,
-        "font-size": 0.7rem,
-        "height" : 20px,
-        "border-radius" : 5px
-    ),
-    "l": (
-        "padding" : 20px,
-        "font-size": 1.5rem,
-        "height" : 70px,
-        "border-radius" : 10px
-    ),
-    "xl": (
-        "padding" : 30px,
-        "font-size": 2rem,
-        "height" : 90px,
-        "border-radius" : 15px
-    )
+  "s": (
+    "padding": 2px,
+    "font-size": 0.7rem,
+    "height": 20px,
+    "border-radius": 5px,
+  ),
+  "l": (
+    "padding": 20px,
+    "font-size": 1.5rem,
+    "height": 70px,
+    "border-radius": 10px,
+  ),
+  "xl": (
+    "padding": 30px,
+    "font-size": 2rem,
+    "height": 90px,
+    "border-radius": 15px,
+  ),
 );
 
-$fonts : 'Catamaran', sans-serif;
+// Font family
+$fonts: "Catamaran", sans-serif;
+
+// Animations
+/// Fade
+$fadeDelay: 500ms;
+$fadeDuration: 300ms + $fadeDelay;
+/// Slides
+$slideDelay: 500ms;
+$slideDuration: 100ms + $slideDelay;

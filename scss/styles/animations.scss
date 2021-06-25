@@ -1,0 +1,64 @@
+// Fades
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.animate.fade-in {
+  animation: fade $fadeDuration ease-in-out $fadeDelay 1 both;
+}
+
+.animate.fade-out {
+  animation: fade $fadeDuration ease-in-out $fadeDelay 1 reverse both;
+}
+
+// Slides left
+@keyframes slideLeft {
+  0% {
+    opacity: 0;
+    overflow: hidden;
+    transform: translateX(-10vw);
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    overflow: auto;
+    transform: translateX(0);
+  }
+}
+
+.animate.slideFromLeft {
+  animation: slideLeft $slideDuration ease-out $slideDelay 1 both;
+}
+
+.animate.slideToLeft {
+  animation: slideLeft $slideDuration ease-in $slideDelay 1 reverse both;
+}
+
+// Slides right
+@keyframes slideRight {
+  0% {
+    overflow: hidden;
+    opacity: 0;
+    transform: translateX(10vw);
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    overflow: auto;
+    transform: translateX(0);
+  }
+}
+
+.animate.slideFromRight {
+  animation: slideRight $slideDuration ease-out $slideDelay 1 both;
+}
+
+.animate.slideToRight {
+  animation: slideRight $slideDuration ease-in $slideDelay 1 reverse both;
+}
