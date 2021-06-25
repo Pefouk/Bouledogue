@@ -1,6 +1,7 @@
 # Bouledogue 🐶
 
 ## 🐕CSS framework made in SCSS with SASS Loader🐩
+### 🚧👷‍♂️IN ACTIVE DEVELOPMENT 👷‍♀️🚧
 # What is Bouledogue
 Bouledogue is a CSS framework made in SCSS on top of [Skeleton](http://getskeleton.com) and [Systematize](https://github.com/mvasilkov/systematize), the main goal behind it's creation was to learn SCSS and make my own 'personnal' CSS framework. As of today i only learned to use Bootstrap, so Bouledogue will be quite a bit inspired by it. The second objective by making Bouledogue is to get more confortable with front end web developpement, since i'm mostly a back end PHP developper. 🐾
 # Installation
