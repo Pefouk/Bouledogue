@@ -3,28 +3,10 @@
 * It adds a few rules to the presentation page.
 */
 
-body {
-  position: relative;
-  min-height: 100vh;
-}
-#app {
-  position: relative;
-  padding-bottom: 80px;
-  padding-top: 20px;
-}
 @media (min-width: 550px) {
   #app {
     padding-top: 20vh;
   }
-}
-
-#footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  text-align: center;
 }
 
 .borderFooter {
