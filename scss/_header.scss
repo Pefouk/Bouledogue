@@ -1,0 +1,13 @@
+#header {
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+}
+
+.header.title {
+text-decoration: none;
+}
