@@ -1,3 +1,10 @@
+// Crappy hack to get the parent div to not overflow
+.animated {
+  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
 // Fades
 @keyframes fade {
   0% {
@@ -15,18 +22,17 @@
   animation: fade $fadeDuration ease-in-out $fadeDelay 1 reverse both;
 }
 
-// Slides left
+// Horizontal slides
+/// Slides left
 @keyframes slideLeft {
   0% {
     opacity: 0;
-    overflow: hidden;
-    transform: translateX(-10vw);
+    transform: translateX(-$slideX);
   }
   80% {
     opacity: 0;
   }
   100% {
-    overflow: auto;
     transform: translateX(0);
   }
 }
@@ -39,18 +45,16 @@
   animation: slideLeft $slideDuration ease-in $slideDelay 1 reverse both;
 }
 
-// Slides right
+/// Slides right
 @keyframes slideRight {
   0% {
-    overflow: hidden;
     opacity: 0;
-    transform: translateX(10vw);
+    transform: translateX($slideX);
   }
   80% {
     opacity: 0;
   }
   100% {
-    overflow: auto;
     transform: translateX(0);
   }
 }
@@ -61,4 +65,49 @@
 
 .animate.slideToRight {
   animation: slideRight $slideDuration ease-in $slideDelay 1 reverse both;
+}
+
+// Vertical Slides
+/// Slide top
+@keyframes slideTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-$slideY);
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate.animate.slideFromTop {
+  animation: slideTop $slideDuration ease-out $slideDelay 1 both;
+}
+
+.animation.slideToTop {
+  animation: slideTop $slideDuration ease-in $slideDelay 1 reverse both;
+}
+
+/// Slide bottom
+@keyframes slideBottom {
+  0% {
+    opacity: 0;
+    transform: translateY($slideY);
+  }
+  80% {
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate.animate.slideFromBottom {
+  animation: slideBottom $slideDuration ease-out $slideDelay 1 both;
+}
+
+.animation.slideToBottom {
+  animation: slideBottom $slideDuration ease-in $slideDelay 1 reverse both;
 }
