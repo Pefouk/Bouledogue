@@ -1,9 +1,9 @@
-@import "../node_modules/systematize/systematize.scss";
-@import "./skeleton.css";
-@import "./styles/variables.scss";
-@import "./styles/colors.scss";
-@import "./styles/buttons.scss";
-@import "./styles/animations.scss";
+@import "~systematize/systematize.scss";
+@import "skeleton";
+@import "variables";
+@import "colors";
+@import "animations";
+@import "buttons";
 @import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;500;700&display=swap");
 
 body {
