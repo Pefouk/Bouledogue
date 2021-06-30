@@ -36,12 +36,20 @@ $btn: (
 $fonts: "Catamaran", sans-serif;
 
 // Animations
+$animationDelays: (
+  "instant": 0ms,
+  "first": 500ms,
+  "second" : 1000ms,
+  "third" : 1500ms,
+  "fourth" : 2000ms,
+  "fifth" : 2500ms,
+);
 /// Fade
 $fadeDelay: 500ms;
-$fadeDuration: 80ms + $fadeDelay;
+$fadeDuration: 580ms;
 /// Slides
 $slideDelay: 500ms;
-$slideDuration: 100ms + $slideDelay;
+$slideDuration: 600ms;
 $slideX: 50vw;
 $slideY: 20vh;
 /// Pulse

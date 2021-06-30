@@ -1,8 +1,13 @@
+// Delays
+@each $name, $delay in $animationDelays {
+  .#{$name} {
+    animation-delay: $delay !important;
+  }
+}
+
 // Crappy hack to get the parent div to not overflow
 .animated {
   overflow: hidden;
-  overflow-y: hidden;
-  overflow-x: hidden;
 }
 
 // Fades
@@ -82,11 +87,11 @@
   }
 }
 
-.animate.animate.slideFromTop {
+.animate.slideFromTop {
   animation: slideTop $slideDuration ease-out $slideDelay 1 both;
 }
 
-.animation.slideToTop {
+.animate.slideToTop {
   animation: slideTop $slideDuration ease-in $slideDelay 1 reverse both;
 }
 
@@ -104,11 +109,11 @@
   }
 }
 
-.animation.slideFromBottom {
+.animate.slideFromBottom {
   animation: slideBottom $slideDuration ease-out $slideDelay 1 both;
 }
 
-.animation.slideToBottom {
+.animate.slideToBottom {
   animation: slideBottom $slideDuration ease-in $slideDelay 1 reverse both;
 }
 
@@ -136,7 +141,7 @@
   }
 }
 
-.animation.slow.pulseFromTop.hover {
+.hover.slow.pulseFromTop {
   transform-origin: top center;
   animation: pulse $pulseSlowDuration alternate infinite;
   animation-play-state: paused;
