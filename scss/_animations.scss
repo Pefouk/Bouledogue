@@ -5,6 +5,13 @@
   }
 }
 
+// Delays
+@each $name, $speed in $animationSpeed {
+  .#{$name} {
+    animation-duration: $speed !important;
+  }
+}
+
 // Crappy hack to get the parent div to not overflow
 .animated {
   overflow: hidden;

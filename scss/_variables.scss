@@ -44,6 +44,13 @@ $animationDelays: (
   "fourth" : 2000ms,
   "fifth" : 2500ms,
 );
+$animationSpeed: (
+  "veryfast": 100ms,
+  "fast": 250ms,
+  "medium": 400ms,
+  "slow": 600ms,
+  "veryslow": 800ms
+);
 /// Fade
 $fadeDelay: 500ms;
 $fadeDuration: 580ms;
