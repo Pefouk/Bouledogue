@@ -124,33 +124,30 @@
   animation: slideBottom $slideDuration ease-in $slideDelay 1 reverse both;
 }
 
-// Pulse
-/// Slow Pulse from top
+// Stretch
+/// Strtetch
 
 @keyframes pulse {
   0% {
     transform: scale(1);
     opacity: 1;
   }
-  20% {
-    transform: scale(0.5, 1);
-  }
-  50% {
+  40% {
     transform: scale(2, 1);
     opacity: 0.8;
   }
-  80% {
+  45% {
     transform: scale(0.5, 1);
-  }
-  100% {
-    transform: scale(1);
     opacity: 1;
+  }
+  60%, 100% {
+    transform: scale(1);;
   }
 }
 
-.hover.slow.pulseFromTop {
+.hover.stretch {
   transform-origin: top center;
-  animation: pulse $pulseSlowDuration alternate infinite;
+  animation: pulse $stretchDuration infinite;
   animation-play-state: paused;
   &:hover {
     animation-play-state: running;
