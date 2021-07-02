@@ -4,8 +4,8 @@
   "description": "CSS Framework",
   "main": "index.js",
   "scripts": {
-    "test": "null",
-    "build": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js scss/bouledogue.scss -o css --output-style compressed",
+    "test": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js scss/bouledogue.scss -o css --output-style compressed",
+    "build": "node index.js build",
     "watch": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js scss/bouledogue.scss -o css --watch"
   },
   "repository": {
