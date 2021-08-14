@@ -23,3 +23,4 @@ Bouledogue is used on [its presentation page](https://bouledogue.pefouk.tech) an
 My parents own a French Bouledogue (named Jaya) so i quite like this breed, as simple as that.
 
 [Mandatory dogs pics](https://imgur.com/a/9FKcfYX)  🇫🇷
+RIP Jaya 2014-2021
